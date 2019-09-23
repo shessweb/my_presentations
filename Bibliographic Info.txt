@@ -1,0 +1,17 @@
+MLHelio Poster
+  Conference: Machine Learning in Heliophysics
+              Poster A11
+              Sept 16-20, 2019
+              Amsterdam
+  Title:      Using Deep-Learning to Map the Solar Far-Side Magnetic Flux from Helioseismic Measurements
+  Authors:    Hess Webber, Shea A; Chen, Ruizhu; Zhao, Junwei
+  Abstract:   The solar far-side magnetic flux is a crucial physical quantity for space weather forecasting and solar wind
+  modeling, but it is not currently directly observed. For about 4 years, the extreme ultraviolet (EUV) 304 Angstrom flux of 
+  the far side was observed by STEREO/EUVI, which is used to produce proxy far-side magnetic flux maps (talk by R. Chen, Monday).
+  Helioseismic far-side imaging methods are also used to produce far-side acoustic maps from near-side observations, which 
+  indirectly detect large active regions on the far side; however, these acoustic maps are not calibrated to magnetic flux. In 
+  this work, we use a deep-learning approach to produce far-side magnetic flux maps in near-real-time using near-side observations
+  alone. Our neural network is trained on ∼2500 pairs (3.5 years, two pairs of maps per day) of far-side acoustic maps and 
+  magnetic flux proxy maps, and then test on the remaining half year of data. The final product can then be further calibrated to
+  magnetic flux-transport maps for additional validation. This neural network will be applied to future far-side acoustic maps to
+  produce near-real-time far-side magnetic flux maps, without the need for direct far-side observations.
